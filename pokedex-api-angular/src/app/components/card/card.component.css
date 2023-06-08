@@ -1,0 +1,43 @@
+.card{
+  border: 1px solid blue;
+  width: 250px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.card_title{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_title > h3{
+  color: white;
+}
+
+.card_body{
+  background-color: blue;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+}
+
+.card_stats{
+padding-top: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-right: 3px;
+}
+
+.card_stats_type{
+  color: white;
+  background-color: coral;
+  padding: 3px;
+  margin: auto;
+  font: 'bold';
+}
